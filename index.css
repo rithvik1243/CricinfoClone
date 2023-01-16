@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mobile{
+    border: 1px solid #eee;
+    border-radius: 1rem;
+    margin: 1rem auto;
+    max-width: 480px;
+    /* max-height: 800px; */
+    overflow: hidden;
+}
+
+h2{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+header{
+    background-color: #064dbb;
+    height: 12rem;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+}
+
+nav a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+}
+
+nav img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 999999px;
+}
+
+.card{
+    background-color: white;
+    border: 1px solid #eee;
+    border-radius: 1rem;
+    margin: 1rem 1.5rem;
+    overflow: hidden;
+    box-shadow: 2px 2px 12px 0 rgba(200, 200, 200, 0.6);
+}
+
+.result{
+    margin-top: -6rem;
+    padding: 1rem 1.5rem;
+}
+
+.team{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.score{
+    margin-left: auto;
+    text-align: right;
+}
+
+.team img{
+    margin-right: 0.5rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 99999px;
+}
+
+.matchname{
+    margin-bottom: 0.5rem;
+}
+
+.summary{
+    margin-top: 1.2rem;
+}
+
+.vs{
+    text-align: center;
+}
+.vs span{
+    display: inline-block;
+    background-color: #eee;
+    color: #666;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+}
+
+menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+menu button{
+    border: none;
+    background-color: white;
+    font-size: 1.2rem;
+    padding: 1.5rem 1rem;
+    font-weight: 550;
+}
+
+menu button:hover{
+    cursor: pointer;
+}
+menu button.active{
+    border-bottom: 4px solid #064dbb;
+    color: #064dbb;
+}
+
+table{
+    text-align: right;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+thead{
+    color: black;
+}
+
+tbody{
+    color: #666;
+}
+
+th, td{
+    padding: 1rem 0.25rem;
+}
+
+tbody tr:nth-child(2n+1){
+    background: linear-gradient(to bottom, #f2f2f2, white 70%, white);
+}
+
+tbody tr{
+    background-color: #eee;
+}
+
+thead th:first-child, tbody td:first-child{
+    text-align: left;
+    padding-left: 1rem;
+}
+
+thead th:last-child, tbody td:last-child{
+    padding-right: 1rem;
+}
+
+tbody td:first-child{
+    color:#3d8bff;
+}
+
+.pom{
+    overflow: visible;
+    padding: 1rem 1.5rem;
+    height: 10rem;
+    position: relative;
+}
+
+.pom img{
+    position: absolute;
+    bottom: 0;
+    right: 1;
+    height: 11rem;
+}
+
+.name{
+    font-size: 1.25rem;
+    margin-bottom: 0.4rem;
+}
+
+.loser{
+    font-weight: 10;
+}
+
+td a{
+    text-decoration: none;
+    color: #064dbb;
+}

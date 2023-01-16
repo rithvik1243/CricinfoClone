@@ -1,0 +1,115 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cricinfo.css">
+    <title>CricInfo</title>
+</head>
+<body>
+    <div class="mobile">
+        <header>
+            <nav>
+                <a href="#">&lsaquo;</a>
+                <img src="data:image/png;base64,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" alt="Main">
+            </nav>
+        </header>
+        <section class="result card">
+            <h2>Result</h2>
+            <p class="matchname">2011 ODI WC Final</p>
+            <div class="team loser">
+                <img src="https://s.ndtvimg.com/images/entities/300/sri-lanka-2118.png" alt="sri lanka">
+                <span>Sri Lanka</span>
+                <div class="score">
+                    <p>274/6</p>
+                    <p>(50 overs)</p>
+                </div>
+            </div>
+            <div class="vs"><span>vs</span></div>
+            <div class="team winner">
+                <img src="https://s.ndtvimg.com/images/entities/300/india-6.png" alt="india">
+                <span>India</span>
+                <div class="score">
+                    <p>277/4</p>
+                    <p>(48.2/50 overs, target 275)</p>
+                </div>
+            </div>
+            <p class="summary">India won by 6 wickets(with 10 balls remaining)</p>
+        </section>
+
+        <section class="report">
+            <menu class="card">
+                <button class="active">Live</button>
+                <button>Scorecard</button>
+                <button>Report</button>
+            </menu>
+            <table class="card">
+                <thead>
+                    <tr>
+                        <th>Batsmen</th>
+                        <th>R</th>
+                        <th>B</th>
+                        <th>4s</th>
+                        <th>6s</th>
+                        <th>SR</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="https://www.icc-cricket.com/rankings/mens/player-rankings/1">MS Dhoni (c)</a></td>
+                        <td>91</td>
+                        <td>79</td>
+                        <td>8</td>
+                        <td>2</td>
+                        <td>115.2</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.icc-cricket.com/rankings/mens/player-rankings/113">Yuvaraj</a></td>
+                        <td>21</td>
+                        <td>24</td>
+                        <td>3</td>
+                        <td>0</td>
+                        <td>81.7</td>
+                    </tr>
+                </tbody>
+                <thead>
+                    <tr>
+                        <th>Bowler</th>
+                        <th>O</th>
+                        <th>M</th>
+                        <th>W</th>
+                        <th>R</th>
+                        <th>ECON</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="https://www.icc-cricket.com/rankings/mens/player-rankings/211">Malinga</a></td>
+                        <td>9</td>
+                        <td>0</td>
+                        <td>2</td>
+                        <td>42</td>
+                        <td>4.66</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.icc-cricket.com/rankings/mens/player-rankings/23">Kulasekara</a></td>
+                        <td>8.2</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>64</td>
+                        <td>8.1</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+        </section>
+
+        <section class="pom card">
+            <h2>Player of the Match</h2>
+            <img src="http://ktastro.blob.core.windows.net/images/Celebrity/MSDhoni.png" alt="MS Dhoni">
+            <p class="name"><strong>MS Dhoni</strong></p>
+            <p>India</p>
+        </section>
+    </div>
+</body>
+</html>
